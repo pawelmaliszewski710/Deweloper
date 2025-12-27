@@ -62,7 +62,7 @@ const App: React.FC = () => {
              <p className="text-textMuted mb-8">
                Skontaktuj się z naszym doradcą. Pomożemy Ci wybrać dom idealnie dopasowany do potrzeb Twojej rodziny.
              </p>
-             <Button href="#kontakt" variant="primary">
+             <Button href="mailto:biuro@dsdev.pl" variant="primary">
                Umów bezpłatną prezentację
              </Button>
            </div>

@@ -44,8 +44,7 @@ export const INVESTMENTS: Investment[] = [
     status: 'W sprzedaży',
     availableUnits: 'Pozostało: 4/8',
     description: 'Kameralne osiedle domów jednorodzinnych w otoczeniu starodrzewu. Idealne miejsce dla rodzin szukających ciszy z szybkim dojazdem do centrum stolicy. Nowoczesna architektura łączy się tu z naturą.',
-    // I replaced the local file with a high-quality placeholder that matches your description (Modern White Barn House)
-    imageUrl: 'https://i.postimg.cc/7ZnySxBF/2-HD.jpg',
+    imageUrl: 'https://lh3.googleusercontent.com/pw/AP1GczNwbjF7D27YQuU8CZcifW7dWDERxEhSyayc6gFX04RtM8jszdTr-OblqJAI-Kct5mtlR1gpzF1b2XtI5NPM5lvmTqjwZcDdvz-t7MNHt_-hOpmO6HdehnaY2HVU82g-uYhyoaM_j4OuXGdGYoBq89iF=w1920-h1080-s-no-gm',
     features: [
       { icon: <Icons.Maximize />, label: 'Metraż', value: '145 m² - 180 m²' },
       { icon: <Icons.Tree />, label: 'Ogród', value: 'do 400 m²' },
@@ -73,5 +72,5 @@ export const INVESTMENTS: Investment[] = [
 export const NAV_LINKS = [
   { label: 'Szmaragdowa', href: '#inv-001' },
   { label: 'Brylantowa', href: '#inv-002' },
-  { label: 'Kontakt', href: '#' },
+  { label: 'Kontakt', href: '#kontakt' },
 ];

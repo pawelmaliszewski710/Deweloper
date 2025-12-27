@@ -1,3 +1,5 @@
+import React from 'react';
+
 export interface Feature {
   icon: React.ReactNode;
   label: string;
