@@ -21,14 +21,6 @@ export const InvestmentCard: React.FC<InvestmentCardProps> = ({ investment, reve
           alt={investment.name} 
           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
         />
-        
-        {/* Status Badge */}
-        <div className="absolute top-6 left-6 bg-accent/95 backdrop-blur-sm border border-primary/10 px-4 py-2 rounded-full flex items-center gap-2 shadow-sm">
-          <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></div>
-          <span className="text-primary font-semibold text-xs tracking-wide uppercase">
-            {investment.status} <span className="mx-1 opacity-40">|</span> {investment.availableUnits}
-          </span>
-        </div>
       </div>
 
       {/* Content Section */}

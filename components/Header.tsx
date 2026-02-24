@@ -65,9 +65,9 @@ export const Header: React.FC = () => {
 
           {/* CTA / Phone */}
           <div className="hidden md:flex items-center">
-            <Button variant="primary" className="!px-5 !py-2.5 !text-xs !gap-2" href="tel:+48724000003">
+            <Button variant="primary" className="!px-5 !py-2.5 !text-xs !gap-2" href="tel:+48519452981">
               <Icons.Phone />
-              <span>+48 724 000 003</span>
+              <span>+48 519 452 981</span>
             </Button>
           </div>
 

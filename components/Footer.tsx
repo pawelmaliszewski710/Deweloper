@@ -31,8 +31,8 @@ export const Footer: React.FC = () => {
               <p>00-123 Warszawa</p>
             </div>
             <div className="text-gray-400 text-xs">
-              <p>NIP: 123-456-78-90</p>
-              <p>KRS: 0000123456</p>
+              <p>NIP: 7622014168</p>
+              <p>KRS: 0000946595</p>
             </div>
           </div>
 
@@ -55,14 +55,14 @@ export const Footer: React.FC = () => {
             <h4 className="font-display font-bold text-lg mb-6 text-white/90">Inwestycje</h4>
             <div className="space-y-6">
               <div>
-                <h5 className="font-semibold text-white text-sm mb-1">Osiedle Dębowe</h5>
-                <p className="text-gray-300 text-xs">ul. Leśna 42</p>
-                <p className="text-gray-300 text-xs">05-270 Marki</p>
+                <h5 className="font-semibold text-white text-sm mb-1">Osiedle Brylantowe</h5>
+                <p className="text-gray-300 text-xs">ul. Sybiraków 33</p>
+                <p className="text-gray-300 text-xs">05-250 Radzymin</p>
               </div>
               <div>
-                <h5 className="font-semibold text-white text-sm mb-1">Willa Sosnowa</h5>
-                <p className="text-gray-300 text-xs">ul. Spokojna 15</p>
-                <p className="text-gray-300 text-xs">05-120 Legionowo</p>
+                <h5 className="font-semibold text-white text-sm mb-1">Osiedle Szmaragdowe</h5>
+                <p className="text-gray-300 text-xs">ul. Sybiraków 10</p>
+                <p className="text-gray-300 text-xs">05-250 Radzymin</p>
               </div>
             </div>
           </div>
@@ -74,11 +74,11 @@ export const Footer: React.FC = () => {
               Zapraszamy do kontaktu z naszym biurem sprzedaży.
             </p>
             <div className="space-y-4">
-              <a href="tel:+48724000003" className="block text-2xl font-display font-bold hover:text-green-300 transition-colors">
-                724 000 003
+              <a href="tel:+48519452981" className="block text-2xl font-display font-bold hover:text-green-300 transition-colors">
+                519 452 981 
               </a>
-              <a href="mailto:sprzedaz@dsdev.pl" className="block text-gray-300 hover:text-white transition-colors text-sm">
-                sprzedaz@dsdev.pl
+              <a href="mailto:daniel.swiercz@onet.pl" className="block text-gray-300 hover:text-white transition-colors text-sm">
+                daniel.swiercz@onet.pl
               </a>
             </div>
           </div>
@@ -87,8 +87,8 @@ export const Footer: React.FC = () => {
 
         {/* Copyright */}
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500">
-          <p>© 2024 DS Dev. Wszelkie prawa zastrzeżone.</p>
-          <p>Realizacja: FrontendExpert</p>
+          <p>© 2026 DS Dev. Wszelkie prawa zastrzeżone.</p>
+          <p>Realizacja: PerfectInfo</p>
         </div>
 
       </div>

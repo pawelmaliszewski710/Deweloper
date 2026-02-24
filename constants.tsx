@@ -39,31 +39,27 @@ export const Icons = {
 export const INVESTMENTS: Investment[] = [
   {
     id: 'inv-001',
-    name: 'Osiedle Dębowe',
-    location: 'ul. Leśna 42, 05-270 Marki',
-    status: 'W sprzedaży',
-    availableUnits: 'Pozostało: 4/8',
+    name: 'Osiedle Brylantowe',
+    location: 'ul. Sybiraków 33, 05-250 Radzymin',
     description: 'Kameralne osiedle domów jednorodzinnych w otoczeniu starodrzewu. Idealne miejsce dla rodzin szukających ciszy z szybkim dojazdem do centrum stolicy. Nowoczesna architektura łączy się tu z naturą.',
     imageUrl: 'https://lh3.googleusercontent.com/pw/AP1GczNwbjF7D27YQuU8CZcifW7dWDERxEhSyayc6gFX04RtM8jszdTr-OblqJAI-Kct5mtlR1gpzF1b2XtI5NPM5lvmTqjwZcDdvz-t7MNHt_-hOpmO6HdehnaY2HVU82g-uYhyoaM_j4OuXGdGYoBq89iF=w1920-h1080-s-no-gm',
     features: [
-      { icon: <Icons.Maximize />, label: 'Metraż', value: '145 m² - 180 m²' },
-      { icon: <Icons.Tree />, label: 'Ogród', value: 'do 400 m²' },
-      { icon: <Icons.Car />, label: 'Parking', value: 'Garaż + podjazd' },
+      { icon: <Icons.Maximize />, label: 'Metraż', value: '86,53 m²' },
+      { icon: <Icons.Tree />, label: 'Ogród', value: 'do 152 m²' },
+      { icon: <Icons.Car />, label: 'Parking', value: '2 miejsca postojowe przed domem.' },
       { icon: <Icons.Home />, label: 'Pokoje', value: '5 pokoi' }
-    ]
+    ],
   },
   {
     id: 'inv-002',
-    name: 'Willa Sosnowa',
-    location: 'ul. Spokojna 15, 05-120 Legionowo',
-    status: 'Ostatnie domy',
-    availableUnits: 'Pozostało: 2/12',
-    description: 'Ekskluzywny kompleks willi miejskich o podwyższonym standardzie. Duże przeszklenia, system Smart Home w standardzie oraz prywatny park dla mieszkańców. Prestiż i komfort w każdym detalu.',
-    imageUrl: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2906&auto=format&fit=crop',
+    name: 'Osiedle Szmaragdowe',
+    location: 'ul. Sybiraków 10,  05-250 Radzymin',
+    description: 'Kameralne osiedle eleganckich domów jednorodzinnych położone wśród zieleni i dojrzałego starodrzewu. To wyjątkowa przestrzeń stworzona z myślą o rodzinach, które pragną spokoju i prywatności, nie rezygnując z wygodnego dostępu do serca miasta.',
+    imageUrl: 'https://lh3.googleusercontent.com/pw/AP1GczPFdfY6aDz_LLcwjGbN9xDrGjLEU22U28SRPs8t4SJgH9Z-5bdavwvWibjfJ9K3HDIwmFRxpvXruE-n0CEeoU5VHYv4gv8sLPV6QBS-8mhBJXC_e4VMdTUGlowVJ8Kks0iaaKepE0gsyx_XzY5dAJs=w1691-h951-s-no-gm?authuser=0',
     features: [
-      { icon: <Icons.Maximize />, label: 'Metraż', value: '160 m² - 220 m²' },
-      { icon: <Icons.Tree />, label: 'Ogród', value: 'do 600 m²' },
-      { icon: <Icons.Car />, label: 'Parking', value: 'Garaż dwustanowiskowy' },
+      { icon: <Icons.Maximize />, label: 'Metraż', value: '61,68 m² - 71,41 m²' },
+      { icon: <Icons.Tree />, label: 'Ogród', value: 'do 193 m²' },
+      { icon: <Icons.Car />, label: 'Parking', value: '2 miejsca parkingowe przed domem.' },
       { icon: <Icons.Home />, label: 'Standard', value: 'Premium' }
     ]
   }
